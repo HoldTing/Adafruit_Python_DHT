@@ -68,7 +68,7 @@ humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
 # the results will be null (because Linux can't
 # guarantee the timing of calls to read the sensor).
 # If this happens try again!
-while true:
+while True:
 	h0,t0=Adafruit_DHT.read_retry(sensor,pin)
 	if h0 is not None and t0 is not None:
 		print('Temp={0:0.1f}*  Humidity={1:0.1f}%'.format(t0, h0))
