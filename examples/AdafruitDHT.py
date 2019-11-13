@@ -22,7 +22,7 @@
 import sys
 import http.client as http
 import time
-import jason
+import json
 import Adafruit_DHT
 deviceId="DCU0M0v0"
 deviceKey="RG1c8FJIzUoH9YGq"
