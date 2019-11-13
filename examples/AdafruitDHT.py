@@ -75,7 +75,6 @@ while true:
 		payload = {"datapoints":[{"dataChnId":"Humidity","values":{"value":h0}},{"dataChnId":"Temperature","values":{"value":t0}}]} 
 		post_to_mcs(payload)
 		time.sleep(10)
-
 	else:
 		print('Failed to get reading. Try again!')
 		sys.exit(1)
